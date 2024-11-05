@@ -1,0 +1,80 @@
+// .loader {
+//     position: absolute;
+//     width: 80px;
+//     height: 80px;
+//     display: inline-block;
+//     border: 7px solid #7fff00;
+//     border-radius: 50%;
+//     border-top-color: transparent;
+//     border-bottom-color: transparent;
+//     animation: round-infinite 1s infinite;
+//     z-index: 2;
+// }
+
+.modal-container{
+    width: 612px;
+    height: auto;
+    top: 44px;
+    left: 334px;
+    padding: 24px 24px 32px 24px;
+    border-radius: 16px;
+    gap: 24px;
+    border: none !important;
+}
+.css-wchcb4-JoyModalClose-root{
+    margin: 27px 15px 15px 10px !important;
+}
+.css-1r2bn3-JoySvgIcon-root{
+    color:#ffffff !important;
+}
+.css-wchcb4-JoyModalClose-root:hover {
+    background-color: #151515 !important;
+    color:#ffffff !important;
+}
+.modal-close-button{
+    margin: 27px 15px 15px 10px !important;
+    background-color: #151515 !important;
+    color: #ffffff !important;
+}
+.modal-close-button:hover{
+    background-color: #151515 !important;
+    color:#ffffff !important;
+}
+// .MuiSvgIcon-root{
+//     color:#ffffff !important;
+// }
+
+.loaderModal {
+    padding:48px 64px 48px 64px !important;
+    gap :32px !important;
+    align-items: center !important;
+    display: flex !important;
+    min-width: 251px !important;
+    
+}
+
+.modal-loaderBox{
+text-align: center;
+display: flex !important;
+justify-content: center !important;
+}
+
+.modal-loaderText{
+    color: white !important;
+    width: 73px !important;
+    height: 24px !important;
+    text-align: center !important;
+    // font-family: OatmealProTRIALRegular !important;
+}
+.modal-loaderText2{
+    color: #8B8B8B !important;
+    width: 123px !important;
+    height: 16px !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    letter-spacing: 0em !important;
+    text-align: center !important;
+    // font-family: OatmealProTRIALRegular !important;
+}

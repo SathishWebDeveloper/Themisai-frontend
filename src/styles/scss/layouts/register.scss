@@ -1,0 +1,102 @@
+.siginup-spantext {
+    font-family: Poppins !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    text-align: left !important;
+    color: #0c111a !important;
+    margin-left: 10px !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    position: relative !important;
+    transition: color 0.3s ease !important; 
+}
+.siginup-spantext::after {
+    bottom: 0 !important;
+    display: block !important;
+    height: 2px !important;
+    left: 50% !important;
+    position: absolute !important;
+    background: #0c111a !important;
+    transition: width 0.3s ease, left 0.3s ease !important; 
+    width: 0 !important;
+    content: " " !important;
+}
+.form-container {
+    height: 100% !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    row-gap: 0px !important;
+}
+// Need to make unique
+.inputcontainer {
+    width: 60% !important;
+    height: 50px !important;
+    opacity: 0px !important;
+    border: 1px solid #ffffff !important;
+    margin-top: 34px !important;
+    margin-bottom: 12px !important;
+    margin-right: 105px !important;
+}
+.btn-action-container {
+    width: 60% !important;
+    margin-top: 60px !important;
+    margin-bottom: 15px !important;
+    margin-right: 105px !important;
+
+
+}
+.divider-style {
+    width: 60% !important;
+    height: 24px !important;
+    opacity: 0px !important;
+    margin-top: 15px;
+    margin-right: 105px !important;
+}
+.socialmediatext {
+    font-family: Poppins !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: center !important;
+    color: #1b1b1b !important;
+    margin-left: 10px !important;
+    cursor: pointer !important;
+}
+.register-email-mobile-error,
+.register-password-error {
+    height: 16px !important;
+}
+
+.register-error-highlight-text {
+    font-family: Poppins !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    color: red !important;
+    margin-top: 7px !important;
+}
+
+.Register-server-side-error-container{
+    margin-right: 90px !important;
+}
+
+.Register-server-side-error{
+    font-family: Poppins !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    color: red !important;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 5px !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+    color: #0C111A !important;
+}

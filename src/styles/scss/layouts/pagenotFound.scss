@@ -1,0 +1,97 @@
+.pageContainer {
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.childContainer {
+    width: 30% !important;
+    height: 85% !important;
+    padding-top: 3% !important;
+}
+
+.Pagetext {
+    display: flex !important;
+    justify-content: center !important;
+    padding: 2% !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    font-family: Manrope !important;
+}
+
+.foundText {
+    display: flex !important;
+    justify-content: center !important;
+    font-size: 2rem;
+    font-weight: 700 !important;
+    font-family: Manrope !important;
+
+}
+
+.SubtextContainer {
+    display: flex !important;
+    justify-content: center !important;
+    align-self: center !important;
+    text-align: center !important;
+    padding: 5% !important;
+}
+
+.Subtext {
+    max-width: 86% !important;
+    color: "rgb(99, 115, 129)" !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    color: rgb(99, 115, 129) !important;
+    font-family: Poppins !important;
+}
+
+.imageContainer {
+    display: flex !important;
+    justify-content: center !important;
+    // padding: 18% !important;
+    margin-bottom: 10% !important;
+}
+
+.buttonContainer {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 30%;
+}
+
+.buttonText {
+    background-color: #0C111A !important;
+    font-family: Poppins !important;
+}
+
+h1.pnf-text>span {
+    -webkit-animation: spooky 2s alternate infinite linear !important;
+    animation: spooky 2s alternate infinite linear !important;
+    // display: inline-block !important;
+    ;
+}
+
+@-webkit-keyframes spooky {
+    from {
+        transform: translatey(0.15em) scaley(0.95) !important;
+        ;
+    }
+
+    to {
+        transform: translatey(-0.15em) !important;
+    }
+}
+
+h1.pnf-text {
+    color: #0C111A !important;
+    font-size: 10rem !important;
+    margin: 3.125rem 0 0 !important;
+    filter: drop-shadow(0.6rem 0.6rem 0.2rem rgba(0, 0, 0, 0.7)) !important;
+    white-space: nowrap !important;
+    // font-family: Manrope !important;
+    // font-family: Manrope !important;
+    font-weight: 700 !important;
+    height: 13.125rem !important;
+    white-space: pre !important;
+}
